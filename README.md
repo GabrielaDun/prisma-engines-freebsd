@@ -19,19 +19,19 @@
 case "$(uname -r)" in
 *"11."*)
   FreeBSD_Version=freebsd11
-  Prisma_Build=https://github.com/gek64/prisma-engines-freebsd/releases/download/latest/prisma-engines-FreeBSD_13.2-RELEASE_amd64.tar.gz
+  Prisma_Build=https://github.com/GabrielaDun/prisma-engines-freebsd/releases/download/latest/prisma-engines-FreeBSD_13.2-RELEASE_amd64.tar.gz
   ;;
 *"12."*)
   FreeBSD_Version=freebsd12
-  Prisma_Build=https://github.com/gek64/prisma-engines-freebsd/releases/download/latest/prisma-engines-FreeBSD_13.2-RELEASE_amd64.tar.gz
+  Prisma_Build=https://github.com/GabrielaDun/prisma-engines-freebsd/releases/download/latest/prisma-engines-FreeBSD_13.2-RELEASE_amd64.tar.gz
   ;;
 *"13."*)
   FreeBSD_Version=freebsd13
-  Prisma_Build=https://github.com/gek64/prisma-engines-freebsd/releases/download/latest/prisma-engines-FreeBSD_13.2-RELEASE_amd64.tar.gz
+  Prisma_Build=https://github.com/GabrielaDun/prisma-engines-freebsd/releases/download/latest/prisma-engines-FreeBSD_13.2-RELEASE_amd64.tar.gz
   ;;
 *"14."* | *)
   FreeBSD_Version=freebsd14
-  Prisma_Build=https://github.com/gek64/prisma-engines-freebsd/releases/download/latest/prisma-engines-FreeBSD_14.0-RELEASE_amd64.tar.gz
+  Prisma_Build=https://github.com/GabrielaDun/prisma-engines-freebsd/releases/download/latest/prisma-engines-FreeBSD_14.0-RELEASE_amd64.tar.gz
   ;;
 esac
 
