@@ -45,12 +45,12 @@ mkdir -p /tmp/prisma-engines && tar -xvf "/tmp/prisma-engines.tar.gz" -C /tmp/pr
 mv "/tmp/prisma-engines/libquery_engine.so" "/tmp/prisma-engines/libquery_engine.so.node"
 
 # move to `/usr/share/prisma-engines`
-mv /tmp/prisma-engines /usr/share/prisma-engines
+mv /tmp/prisma-engines /home/Trygon/prisma_engines
 
 # set env
-export PRISMA_QUERY_ENGINE_BINARY="/usr/share/prisma-engines/query-engine"
-export PRISMA_QUERY_ENGINE_LIBRARY="/usr/share/prisma-engines/libquery_engine.so.node"
-export PRISMA_SCHEMA_ENGINE_BINARY="/usr/share/prisma-engines/schema-engine"
+export PRISMA_QUERY_ENGINE_BINARY="/home/Trygon/prisma-engines/query-engine"
+export PRISMA_QUERY_ENGINE_LIBRARY="/home/Trygon/prisma-engines/libquery_engine.so.node"
+export PRISMA_SCHEMA_ENGINE_BINARY="/home/Trygon/prisma-engines/schema-engine"
 export PRISMA_CLI_QUERY_ENGINE_TYPE="library"
 export PRISMA_CLIENT_ENGINE_TYPE="library"
 
